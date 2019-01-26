@@ -1,20 +1,20 @@
 # CS294-112 HW 1: Imitation Learning
 
-In this assignment, Behavioral Cloning and DAgger algorithms were implemented. Please see 'imitation_agent.py' for details.
+In this assignment, Behavioral Cloning and DAgger algorithms were implemented. Please see `imitation_agent.py` for details.
 
 In some cases, DAgger have better performance compared with Behavioral Cloning; while in other cases not.
 
 <div align="center">
-<img src="./imitation_data/stats_plot_Ant-v2.png" height="200px"><img src="./imitation_data/stats_plot_Hopper-v2.png" height="200px">
+<img src="./imitation_data/stats_plot_Ant-v2.png" height="300px"><img src="./imitation_data/stats_plot_Hopper-v2.png" height="300px">
 </div>
 
 To get the above plots, please run the follow commands.
-"""
+```
 python run_expert.py experts/Ant-v2.pkl Ant-v2 --num_rollouts 20
 python imitation_agent.py 'Ant-v2' --num_epochs 30
 python run_expert.py experts/Hopper-v2.pkl Hopper-v2 --num_rollouts 20
 python imitation_agent.py 'Hopper-v2' --num_epochs 30
-"""
+```
 
 ----
 Dependencies:
