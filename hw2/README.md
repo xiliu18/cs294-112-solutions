@@ -45,17 +45,17 @@ python train_pg_f18.py InvertedPendulum-v2 -ep 1000 --discount 0.9 -n 100 -e 3 -
 This experiment tested PG performance in the Lunar Lander environment.
 
 <div align="center">
-<img src="./img/p8_fig1.png" height="300px">
+<img src="./img/p7_fig1.png" height="300px">
 </div>
 
 ## P8: HalfCheetah
 This experiment first chose hyperparameters for batch-size and learning rate using grid search, then tested the performance of difference variance-reduction methods. The results show that with sufficient batch-size, NN baseline may not be able to improve performance.
 
 <div align="center">
-<img src="./img/p4_fig8.png" height="300px"><img src="./img/p8_fig2.png" height="300px">
+<img src="./img/p8_fig1.png" height="300px"><img src="./img/p8_fig2.png" height="300px">
 </div>
 
-
+----
 Dependencies:
  * Python **3.5**
  * Numpy version **1.14.5**
